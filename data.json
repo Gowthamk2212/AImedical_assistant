@@ -1,0 +1,1980 @@
+[{
+  "feature_name": "Blood Pressure (Systolic)",
+  "category": "vital_sign",
+  "description": "The pressure exerted by the blood against the artery walls when the heart beats (contracts). It is the top number in a blood pressure reading.",
+  "units": "mmHg",
+  "normal_range": {
+    "min": 90,
+    "max": 120,
+    "notes": "Optimal systolic pressure is generally considered less than 120 mmHg for most adults; thresholds for \"elevated\" begin at 120 mmHg according to AHA/ACC guidelines."
+  },
+  "low_range": {
+    "threshold": 90,
+    "meaning": "Values below 90 mmHg are categorized as hypotension, which may indicate that the brain and other vital organs are not receiving adequate blood flow."
+  },
+  "high_range": {
+    "threshold": 130,
+    "meaning": "Values of 130 mmHg or higher are generally categorized as hypertension (Stage 1 or higher), indicating increased strain on the cardiovascular system."
+  },
+  "clinical_significance": [
+    "Serves as a primary indicator of cardiovascular health and efficiency.",
+    "Reflects the force of the heart's contraction and the condition of the arterial walls.",
+    "Critical for identifying risks to the heart, kidneys, brain, and vasculature."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Chronic stress and high sodium intake",
+      "Sedentary lifestyle and obesity",
+      "Aging and stiffening of the large arteries",
+      "Underlying conditions such as kidney disease or sleep apnea"
+    ],
+    "low": [
+      "Dehydration or significant blood loss",
+      "Side effects of certain medications (e.g., diuretics, beta-blockers)",
+      "Endocrine problems or severe infection (sepsis)",
+      "Heart valve problems or extremely low heart rate"
+    ]
+  },
+  "associated_symptoms": [
+    "Dizziness or lightheadedness (typically with low values)",
+    "Headaches or blurred vision (typically with very high values)",
+    "Shortness of breath",
+    "Chest pain"
+  ],
+  "risk_implications": [
+    "Increased risk of stroke, myocardial infarction (heart attack), and heart failure.",
+    "Potential for chronic kidney disease due to vascular damage.",
+    "Association with vision loss and peripheral artery disease."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt the DASH (Dietary Approaches to Stop Hypertension) diet, emphasizing low sodium and high potassium.",
+    "Engage in at least 150 minutes of moderate-intensity aerobic activity per week.",
+    "Maintain a healthy weight and limit alcohol consumption."
+  ],
+  "when_to_consult_doctor": [
+    "Consistently high readings (above 130 mmHg) over multiple measurements.",
+    "Sudden, severe headache or chest pain accompanying a high reading.",
+    "Frequent dizzy spells or fainting associated with low readings."
+  ],
+  "related_features": [
+    "Blood Pressure (Diastolic)",
+    "Heart Rate (Pulse)",
+    "Mean Arterial Pressure (MAP)",
+    "Serum Creatinine (Kidney Function)"
+  ],
+  "interpretation_notes": [
+    "A single high reading is not sufficient for a diagnosis of hypertension; multiple readings over time are required.",
+    "White-coat syndrome (anxiety in clinical settings) can artificially inflate readings.",
+    "Proper cuff size and seated position for 5 minutes prior to measurement are essential for accuracy."
+  ]
+},
+{
+  "feature_name": "Blood Pressure (Diastolic)",
+  "category": "vital_sign",
+  "description": "The pressure in the arteries when the heart muscle rests between beats and refills with blood. It is the bottom number in a blood pressure reading.",
+  "units": "mmHg",
+  "normal_range": {
+    "min": 60,
+    "max": 80,
+    "notes": "Optimal diastolic pressure is generally considered less than 80 mmHg for most adults; thresholds for \"elevated\" or Stage 1 hypertension begin at 80 mmHg according to AHA/ACC guidelines."
+  },
+  "low_range": {
+    "threshold": 60,
+    "meaning": "Values below 60 mmHg are categorized as diastolic hypotension, which may indicate reduced blood flow to the heart's own muscle (coronary arteries) and other vital organs."
+  },
+  "high_range": {
+    "threshold": 80,
+    "meaning": "Values of 80 mmHg or higher are categorized as diastolic hypertension (Stage 1 or higher), indicating that the arteries remain under significant pressure even when the heart is resting."
+  },
+  "clinical_significance": [
+    "Reflects the minimum pressure within the arterial system during the cardiac cycle.",
+    "Indicates the resistance of the peripheral blood vessels (total peripheral resistance).",
+    "Crucial for the perfusion of the coronary arteries, which primarily receive blood while the heart is in diastole."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "High dietary sodium intake and excessive alcohol consumption",
+      "Chronic kidney disease or endocrine disorders",
+      "Lack of physical activity and obesity",
+      "Genetics and advancing age"
+    ],
+    "low": [
+      "Severe dehydration or blood loss",
+      "Side effects of medications like alpha-blockers or antidepressants",
+      "Heart valve disorders (e.g., aortic regurgitation)",
+      "Prolonged bed rest or certain neurological conditions"
+    ]
+  },
+  "associated_symptoms": [
+    "Dizziness, lightheadedness, or fainting (low values)",
+    "Fatigue or blurred vision",
+    "Pulsatile tinnitus (hearing a rhythmic thumping in the ears)",
+    "Shortness of breath with exertion"
+  ],
+  "risk_implications": [
+    "Increased risk of coronary artery disease and myocardial infarction.",
+    "Potential for long-term damage to the kidneys and retinal blood vessels.",
+    "Higher likelihood of developing heart failure and vascular dementia."
+  ],
+  "lifestyle_recommendations": [
+    "Limit sodium intake to less than 2,300 mg per day (ideally 1,500 mg for hypertension).",
+    "Maintain a regular routine of aerobic exercise and resistance training.",
+    "Ensure adequate intake of potassium-rich foods like leafy greens and bananas."
+  ],
+  "when_to_consult_doctor": [
+    "Consistent diastolic readings at or above 80 mmHg measured across different days.",
+    "A sudden drop in diastolic pressure accompanied by severe dizziness or loss of consciousness.",
+    "Readings exceeding 120 mmHg diastolic, which requires immediate medical evaluation."
+  ],
+  "related_features": [
+    "Blood Pressure (Systolic)",
+    "Pulse Pressure (Systolic minus Diastolic)",
+    "Heart Rate (BPM)",
+    "Serum Electrolytes (Sodium, Potassium)"
+  ],
+  "interpretation_notes": [
+    "Diastolic pressure tends to rise with age until roughly age 55, after which it may begin to decrease as arteries stiffen.",
+    "Isolated diastolic hypertension (high diastolic but normal systolic) is more common in younger adults.",
+    "Measurements should be taken after 5 minutes of quiet rest for clinical validity."
+  ]
+},
+{
+  "feature_name": "Heart Rate (Pulse)",
+  "category": "vital_sign",
+  "description": "The number of times the heart beats per minute (BPM), measuring the frequency of the cardiac cycle as the heart pumps blood throughout the body.",
+  "units": "bpm",
+  "normal_range": {
+    "min": 60,
+    "max": 100,
+    "notes": "Resting heart rate varies significantly by age and fitness level. Well-trained athletes may have resting rates between 40-60 bpm, while infants naturally have much higher rates (up to 160 bpm)."
+  },
+  "low_range": {
+    "threshold": 60,
+    "meaning": "Known as bradycardia. While often a sign of high cardiovascular fitness in athletes, it may indicate issues with the heart's electrical system in other individuals."
+  },
+  "high_range": {
+    "threshold": 100,
+    "meaning": "Known as tachycardia. Indicates the heart is beating faster than usual at rest, potentially due to physiological stress, illness, or underlying cardiovascular conditions."
+  },
+  "clinical_significance": [
+    "Serves as a fundamental indicator of cardiovascular efficiency and autonomic nervous system function.",
+    "Reflects the body's immediate demand for oxygen and nutrient delivery to tissues and organs.",
+    "Helps monitor the heart's response to physical activity, emotional stress, and clinical interventions."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Physical exertion or emotional stress",
+      "Dehydration, fever, or infection",
+      "Anemia or thyroid overactivity (hyperthyroidism)",
+      "Stimulants like caffeine, nicotine, or certain medications"
+    ],
+    "low": [
+      "High levels of athletic conditioning",
+      "Sleep or deep relaxation states",
+      "Medications such as beta-blockers or calcium channel blockers",
+      "Electrolyte imbalances or thyroid underactivity (hypothyroidism)"
+    ]
+  },
+  "associated_symptoms": [
+    "Palpitations or a sensation of racing/pounding in the chest",
+    "Dizziness, lightheadedness, or fainting (syncope)",
+    "Shortness of breath (dyspnea)",
+    "Chest pain or discomfort"
+  ],
+  "risk_implications": [
+    "Persistent tachycardia is associated with increased risk of stroke, heart failure, and sudden cardiac arrest.",
+    "Chronic symptomatic bradycardia can lead to insufficient blood flow to the brain and vital organs.",
+    "Often associated with arrhythmias like atrial fibrillation or underlying metabolic disorders."
+  ],
+  "lifestyle_recommendations": [
+    "Incorporate regular aerobic exercise to strengthen the heart muscle and lower resting heart rate.",
+    "Practice stress-reduction techniques such as mindfulness, meditation, or controlled breathing.",
+    "Monitor and limit intake of stimulants and ensure adequate hydration."
+  ],
+  "when_to_consult_doctor": [
+    "Consistently resting above 100 bpm or below 60 bpm (if not an athlete/active).",
+    "Heart rate that feels irregular, skipped, or persistently rapid without a clear cause.",
+    "Any heart rate abnormality accompanied by chest pain, shortness of breath, or fainting."
+  ],
+  "related_features": [
+    "Blood Pressure (Systolic and Diastolic)",
+    "Oxygen Saturation (SpO2)",
+    "Heart Rate Variability (HRV)",
+    "Thyroid Stimulating Hormone (TSH)"
+  ],
+  "interpretation_notes": [
+    "Resting heart rate should be measured while sitting quietly for at least 5 to 10 minutes.",
+    "The rhythm (regularity) of the pulse is as clinically relevant as the frequency (rate).",
+    "Body temperature, hydration status, and emotional state can cause significant temporary fluctuations."
+  ]
+},
+{
+  "feature_name": "{Respiratory Rate}",
+  "category": "vital_sign",
+  "description": "The number of breaths a person takes per minute, measured by observing the rise and fall of the chest while at rest.",
+  "units": "breaths/min",
+  "normal_range": {
+    "min": 12,
+    "max": 20,
+    "notes": "Normal resting rates for healthy adults typically fall between 12 and 20 breaths per minute. Rates are significantly higher in infants and children (e.g., newborns may have rates of 30-60 breaths/min)."
+  },
+  "low_range": {
+    "threshold": 12,
+    "meaning": "Known as bradypnea; indicates an abnormally slow breathing rate which may compromise oxygen delivery to tissues."
+  },
+  "high_range": {
+    "threshold": 20,
+    "meaning": "Known as tachypnea; indicates an abnormally rapid breathing rate, often as a compensatory mechanism for physical or metabolic stress."
+  },
+  "clinical_significance": [
+    "Reflects the efficiency of gas exchange (oxygen intake and carbon dioxide elimination).",
+    "Acts as a sensitive indicator of physiological distress, often changing before other vital signs.",
+    "Crucial for maintaining the body's acid-base (pH) balance through the respiratory system."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Fever or acute infection (e.g., pneumonia)",
+      "Asthma, COPD, or other obstructive lung conditions",
+      "Anxiety, panic attacks, or emotional stress",
+      "Dehydration or metabolic acidosis"
+    ],
+    "low": [
+      "Side effects of certain medications, particularly opioids or sedatives",
+      "Central nervous system disorders or head injuries",
+      "Severe hypothyroidism",
+      "Obstructive sleep apnea"
+    ]
+  },
+  "associated_symptoms": [
+    "Shortness of breath (dyspnea)",
+    "Lightheadedness or dizziness",
+    "Bluish tint to lips or fingertips (cyanosis)",
+    "Use of accessory muscles to breathe (chest or neck straining)"
+  ],
+  "risk_implications": [
+    "Potential for respiratory failure if the underlying cause is not addressed.",
+    "Chronic abnormalities may lead to persistent acid-base imbalances (respiratory alkalosis or acidosis).",
+    "May be an early warning sign of deteriorating cardiac or pulmonary health."
+  ],
+  "lifestyle_recommendations": [
+    "Engage in cardiovascular exercise to improve lung capacity and efficiency.",
+    "Practice diaphragmatic breathing or 'belly breathing' to optimize oxygenation.",
+    "Avoid smoking and exposure to environmental pollutants to protect lung tissue."
+  ],
+  "when_to_consult_doctor": [
+    "Persistent resting respiratory rate above 24 or below 10 breaths per minute.",
+    "Difficulty breathing that interferes with daily activities or sleep.",
+    "Sudden onset of rapid breathing accompanied by chest pain or confusion."
+  ],
+  "related_features": [
+    "Oxygen Saturation (SpO2)",
+    "Heart Rate (Pulse)",
+    "Arterial Blood Gas (ABG) Analysis",
+    "Tidal Volume"
+  ],
+  "interpretation_notes": [
+    "Measurement is most accurate when the individual is unaware their breathing is being counted, as conscious control can alter natural rhythm.",
+    "A full minute of counting is recommended if the rhythm is irregular.",
+    "Recent physical activity, caffeine intake, and ambient temperature should be considered contextually."
+  ]
+},
+{
+  "feature_name": "Body Temperature",
+  "category": "vital_sign",
+  "description": "A measure of the body's ability to generate and dissipate heat, reflecting the balance between heat production by metabolic processes and heat loss to the environment.",
+  "units": "°C or °F",
+  "normal_range": {
+    "min": 36.1,
+    "max": 37.2,
+    "notes": "Averages around 37°C (98.6°F), but varies by 0.5°C (0.9°F) throughout the day, typically lowest in the early morning and highest in the late afternoon. Measurement sites (oral, rectal, axillary, or tympanic) affect results."
+  },
+  "low_range": {
+    "threshold": 35.0,
+    "meaning": "Known as hypothermia; occurs when the body loses heat faster than it can produce it, potentially leading to impaired heart and organ function."
+  },
+  "high_range": {
+    "threshold": 38.0,
+    "meaning": "Known as pyrexia or fever; typically indicates an immune response to infection, inflammation, or other physiological stress."
+  },
+  "clinical_significance": [
+    "Serves as a primary indicator of the body's metabolic rate and immune system activation.",
+    "Critical for maintaining optimal enzyme function and cellular health throughout the body.",
+    "Reflects the thermoregulatory efficiency of the hypothalamus in the brain."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Bacterial or viral infections",
+      "Inflammatory conditions (e.g., rheumatoid arthritis)",
+      "Heat exhaustion or heat stroke",
+      "Certain medications or vaccinations"
+    ],
+    "low": [
+      "Prolonged exposure to cold environments",
+      "Endocrine disorders such as hypothyroidism",
+      "Shock or severe sepsis",
+      "Consumption of alcohol or certain sedatives"
+    ]
+  },
+  "associated_symptoms": [
+    "Sweating, chills, and shivering",
+    "Fatigue, muscle aches, or generalized weakness",
+    "Confusion or altered mental state (in extreme high/low cases)",
+    "Increased heart rate and respiratory rate"
+  ],
+  "risk_implications": [
+    "Extremely high temperatures (hyperpyrexia >41.1°C/106°F) can lead to permanent brain damage or organ failure.",
+    "Severe hypothermia can cause cardiac arrhythmia and eventual cardiac arrest.",
+    "Chronic low-grade elevations may indicate underlying autoimmune or neoplastic processes."
+  ],
+  "lifestyle_recommendations": [
+    "Maintain adequate hydration, especially during illness or physical activity.",
+    "Dress in layers appropriate for environmental conditions to assist thermoregulation.",
+    "Use cooling techniques (tepid baths, fans) during mild fevers and avoid excessive physical exertion."
+  ],
+  "when_to_consult_doctor": [
+    "Body temperature exceeding 39.4°C (103°F) in adults or 38°C (100.4°F) in infants.",
+    "Temperature that remains elevated for more than three days despite home care.",
+    "Any temperature below 35°C (95°F), which constitutes a medical emergency."
+  ],
+  "related_features": [
+    "Heart Rate (Pulse)",
+    "White Blood Cell (WBC) Count",
+    "C-Reactive Protein (CRP)",
+    "Thyroid Stimulating Hormone (TSH)"
+  ],
+  "interpretation_notes": [
+    "Rectal and tympanic (ear) measurements are generally closer to the core body temperature than oral or axillary (armpit) readings.",
+    "Age affects temperature regulation; older adults often have lower baseline temperatures and may not 'mount' a fever as easily during infection.",
+    "The menstrual cycle can cause a slight increase in basal body temperature following ovulation."
+  ]
+},
+{
+  "feature_name": "{Oxygen Saturation (SpO2)}",
+  "category": "vital_sign",
+  "description": "The percentage of oxygen-saturated hemoglobin in the blood relative to the total amount of hemoglobin available.",
+  "units": "%",
+  "normal_range": {
+    "min": 95,
+    "max": 100,
+    "notes": "Healthy individuals at sea level typically have readings between 95% and 100%. Levels may be slightly lower (92-94%) at high altitudes or in individuals with certain chronic lung conditions."
+  },
+  "low_range": {
+    "threshold": 95,
+    "meaning": "Known as hypoxemia; indicates that the blood is not carrying sufficient oxygen, potentially compromising organ and tissue function."
+  },
+  "high_range": {
+    "threshold": 100,
+    "meaning": "Readings cannot exceed 100%. While 100% is normal, hyperoxemia (excessive blood oxygen) is typically only a clinical concern when achieved through high-flow supplemental oxygen therapy."
+  },
+  "clinical_significance": [
+    "Serves as a primary indicator of respiratory system efficiency and gas exchange.",
+    "Reflects the adequacy of oxygen delivery to vital organs, including the heart and brain.",
+    "A vital tool for monitoring acute conditions like pneumonia and chronic diseases like asthma or COPD."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Over-administration of supplemental oxygen",
+      "Hyperventilation (though SpO2 rarely exceeds normal physiological limits)"
+    ],
+    "low": [
+      "Lung diseases (e.g., COPD, pneumonia, asthma, pulmonary edema)",
+      "Cardiovascular issues (e.g., heart failure, pulmonary embolism)",
+      "Environmental factors such as high altitude or smoke inhalation",
+      "Sleep apnea or airway obstruction"
+    ]
+  },
+  "associated_symptoms": [
+    "Shortness of breath or rapid breathing",
+    "Restlessness, confusion, or irritability",
+    "Chest pain or rapid heart rate",
+    "Bluish color in the lips, face, or fingernails (cyanosis)"
+  ],
+  "risk_implications": [
+    "Acute, severe drops can lead to tissue hypoxia, organ failure, and respiratory arrest.",
+    "Chronic low levels increase the risk of pulmonary hypertension and heart failure.",
+    "Borderline saturation may lead to chronic fatigue and reduced cognitive function."
+  ],
+  "lifestyle_recommendations": [
+    "Quit smoking and avoid exposure to environmental toxins or high pollution levels.",
+    "Maintain regular cardiovascular exercise to improve lung and heart efficiency.",
+    "Practice deep breathing exercises or pulmonary rehabilitation if recommended."
+  ],
+  "when_to_consult_doctor": [
+    "Consistent resting readings below 94% in a healthy person.",
+    "A sudden drop in oxygen levels accompanied by difficulty breathing or confusion.",
+    "Readings that drop significantly during physical activity or sleep."
+  ],
+  "related_features": [
+    "Respiratory Rate",
+    "Hemoglobin (Hgb)",
+    "Heart Rate (Pulse)",
+    "Arterial Blood Gas (ABG) / PaO2"
+  ],
+  "interpretation_notes": [
+    "Accuracy can be affected by poor circulation, cold hands, nail polish, or dark skin pigmentation.",
+    "SpO2 measures the percentage of saturation, not total oxygen content; anemic individuals may have normal SpO2 but low total oxygen delivery.",
+    "Carbon monoxide poisoning can cause falsely high readings as the oximeter may misidentify carbon monoxide for oxygen."
+  ]
+},
+{
+  "feature_name": "{Fasting Blood Glucose}",
+  "category": "blood_test",
+  "description": "Measures the concentration of glucose (sugar) in the blood after a period of at least 8 to 12 hours of fasting.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": 70,
+    "max": 99,
+    "notes": "Adult ranges; readings between 100–125 mg/dL are generally categorized as impaired fasting glucose or prediabetes."
+  },
+  "low_range": {
+    "threshold": 70,
+    "meaning": "Known as hypoglycemia; indicates blood sugar is lower than the body's immediate requirements for energy and normal brain function."
+  },
+  "high_range": {
+    "threshold": 100,
+    "meaning": "Known as hyperglycemia; levels ≥100 mg/dL indicate that the body is struggling to regulate sugar effectively or is resistant to insulin."
+  },
+  "clinical_significance": [
+    "Reflects the body's ability to maintain glucose homeostasis through insulin and glucagon secretion.",
+    "Acts as a primary screening tool for metabolic syndrome, prediabetes, and diabetes mellitus.",
+    "Impacts long-term health of the vascular system, kidneys, eyes, and nerves."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Insulin resistance or insufficient insulin production",
+      "Sedentary lifestyle and high-sugar diet",
+      "Chronic stress or severe acute illness",
+      "Corticosteroid medications"
+    ],
+    "low": [
+      "Excessive dose of glucose-lowering medications",
+      "Prolonged or intense physical activity without adequate fueling",
+      "Liver disease or endocrine disorders",
+      "Excessive alcohol consumption without food"
+    ]
+  },
+  "associated_symptoms": [
+    "Increased thirst, frequent urination, and fatigue (high)",
+    "Shakiness, sweating, confusion, and dizziness (low)",
+    "Slow-healing wounds",
+    "Blurred vision"
+  ],
+  "risk_implications": [
+    "Persistent elevation increases the risk of cardiovascular disease, stroke, and chronic kidney disease.",
+    "Associated with microvascular complications including retinopathy and peripheral neuropathy.",
+    "Acute severe hypoglycemia can lead to loss of consciousness or seizures."
+  ],
+  "lifestyle_recommendations": [
+    "Prioritize whole foods with a low Glycemic Index (GI) to avoid rapid sugar spikes.",
+    "Engage in consistent moderate-intensity aerobic exercise to improve insulin sensitivity.",
+    "Maintain a healthy body weight and manage stress levels."
+  ],
+  "when_to_consult_doctor": [
+    "Consistent fasting readings ≥ 100 mg/dL over multiple tests.",
+    "Presence of 'The Three Ps': Polydipsia (excessive thirst), Polyuria (excessive urination), and Polyphagia (excessive hunger).",
+    "Episodes of unexplained fainting or severe shakiness."
+  ],
+  "related_features": [
+    "Hemoglobin A1c (HbA1c)",
+    "Fasting Insulin",
+    "C-Peptide",
+    "Oral Glucose Tolerance Test (OGTT)"
+  ],
+  "interpretation_notes": [
+    "Accuracy requires a strict 8–12 hour fast; water is usually permitted but other beverages are not.",
+    "Acute stress (the 'fight or flight' response) can cause a temporary rise in glucose levels.",
+    "A single abnormal reading is typically followed by a retest or an HbA1c test for confirmation."
+  ]
+},
+{
+  "feature_name": "{Postprandial Glucose (PP)}",
+  "category": "blood_test",
+  "description": "Measures the concentration of glucose in the blood specifically following a meal, typically at the two-hour mark, to evaluate the body's metabolic response to a carbohydrate load.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": null,
+    "max": "140",
+    "notes": "In healthy adults without diabetes, the two-hour postprandial glucose level is generally expected to be below 140 mg/dL. Values between 140 and 199 mg/dL may indicate impaired glucose tolerance."
+  },
+  "low_range": {
+    "threshold": "70",
+    "meaning": "Values below 70 mg/dL after a meal may indicate reactive hypoglycemia, where the body overproduces insulin in response to food intake."
+  },
+  "high_range": {
+    "threshold": "200",
+    "meaning": "A two-hour postprandial value of 200 mg/dL or higher is a primary clinical indicator of diabetes mellitus."
+  },
+  "clinical_significance": [
+    "Reflects the adequacy of the first-phase and second-phase insulin response.",
+    "Provides a more dynamic view of glucose metabolism than fasting levels alone.",
+    "Indicates the effectiveness of glucose uptake by peripheral tissues (muscle and fat)."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Type 1 or Type 2 diabetes mellitus",
+      "Insulin resistance or metabolic syndrome",
+      "High-carbohydrate or high-glycemic-index meals",
+      "Gestational diabetes"
+    ],
+    "low": [
+      "Reactive hypoglycemia (postprandial hyperinsulinism)",
+      "Late-phase dumping syndrome following gastric surgery",
+      "Improper timing or dosage of insulin/secretagogue medications",
+      "Adrenal or pituitary insufficiency"
+    ]
+  },
+  "associated_symptoms": [
+    "Post-meal lethargy or 'brain fog' (high)",
+    "Shakiness, sweating, and heart palpitations (low/reactive hypoglycemia)",
+    "Blurred vision and increased thirst",
+    "Extreme hunger shortly after eating"
+  ],
+  "risk_implications": [
+    "Frequent postprandial spikes are associated with increased oxidative stress and vascular endothelial damage.",
+    "Correlated with a higher risk of cardiovascular disease, even when fasting glucose is normal.",
+    "Long-term predictor of diabetic complications such as retinopathy and neuropathy."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a 'food order' strategy: eat fiber-rich vegetables and protein before carbohydrates.",
+    "Engage in 10–15 minutes of light walking immediately after meals to improve glucose clearance.",
+    "Choose complex carbohydrates with a low glycemic index to slow sugar absorption."
+  ],
+  "when_to_consult_doctor": [
+    "Consistently measuring above 140 mg/dL two hours after meals.",
+    "Frequent episodes of dizziness, sweating, or confusion 1–3 hours after eating.",
+    "Unexplained fatigue that occurs exclusively in the post-meal period."
+  ],
+  "related_features": [
+    "Hemoglobin A1c (HbA1c)",
+    "Fasting Blood Glucose",
+    "Oral Glucose Tolerance Test (OGTT)",
+    "1-Hour Postprandial Glucose"
+  ],
+  "interpretation_notes": [
+    "The 2-hour timing must be consistent (starting from the first bite of the meal) for accurate tracking.",
+    "Meal composition (fat and fiber content) significantly alters the peak and duration of the glucose response.",
+    "Pregnancy clinical targets are typically stricter than for the general population."
+  ]
+},
+{
+  "feature_name": "Random Blood Sugar (RBS)",
+  "category": "blood_test",
+  "description": "A measurement of the concentration of glucose (sugar) in the blood at any given time, regardless of when the individual last consumed food.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": 80,
+    "max": 140,
+    "notes": "In healthy individuals, levels typically remain below 140 mg/dL, though they may rise slightly immediately after a meal."
+  },
+  "low_range": {
+    "threshold": "70",
+    "meaning": "Hypoglycemia; indicates that blood glucose levels have dropped too low to adequately fuel the body's cells."
+  },
+  "high_range": {
+    "threshold": "200",
+    "meaning": "Hyperglycemia; a random glucose level of 200 mg/dL or higher, especially when accompanied by symptoms, often suggests the presence of diabetes."
+  },
+  "clinical_significance": [
+    "Provides a rapid assessment of glucose homeostasis.",
+    "Acts as a screening tool for identifying potential cases of diabetes or prediabetes.",
+    "Helps in detecting acute metabolic crises such as diabetic ketoacidosis or severe hypoglycemia."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Diabetes mellitus (Type 1 or Type 2)",
+      "Acute stress or physical trauma",
+      "Recent consumption of a high-carbohydrate meal",
+      "Infection or severe illness",
+      "Use of certain medications, such as corticosteroids"
+    ],
+    "low": [
+      "Excessive dose of insulin or oral glucose-lowering medications",
+      "Prolonged fasting or skipping meals",
+      "Excessive alcohol consumption",
+      "Strenuous physical activity without adequate caloric intake",
+      "Specific hormonal deficiencies or liver disease"
+    ]
+  },
+  "associated_symptoms": [
+    "Increased thirst and dry mouth",
+    "Frequent urination",
+    "Blurred vision",
+    "Fatigue or lethargy",
+    "Shakiness, sweating, or heart palpitations (low sugar)",
+    "Confusion or difficulty concentrating"
+  ],
+  "risk_implications": [
+    "Chronic high levels are associated with long-term damage to the heart, kidneys, and nerves.",
+    "Persistent hyperglycemia increases the risk of vision loss (retinopathy).",
+    "Acute severe low sugar can lead to loss of consciousness or seizures."
+  ],
+  "lifestyle_recommendations": [
+    "Prioritize a diet high in fiber, lean proteins, and complex carbohydrates.",
+    "Maintain a regular exercise routine to improve insulin sensitivity.",
+    "Stay hydrated and limit the intake of sugary processed beverages."
+  ],
+  "when_to_consult_doctor": [
+    "If random blood sugar readings are consistently above 180-200 mg/dL.",
+    "If experiencing recurring episodes of dizziness, fainting, or cold sweats.",
+    "If symptoms of extreme thirst and frequent urination persist despite normal water intake."
+  ],
+  "related_features": [
+    "HbA1c (Hemoglobin A1c)",
+    "Fasting Blood Sugar (FBS)",
+    "Oral Glucose Tolerance Test (OGTT)",
+    "Urinalysis (Glucose/Ketones)"
+  ],
+  "interpretation_notes": [
+    "RBS is a snapshot in time; it does not provide a long-term view of glucose control like the HbA1c test.",
+    "Interpretation must consider the timing of the last meal and the individual's current physical state (e.g., stress or illness).",
+    "Diagnosis of a metabolic condition typically requires follow-up testing under controlled (fasting) conditions."
+  ]
+},
+{
+  "feature_name": "HbA1c (Glycated Hemoglobin)",
+  "category": "blood_test",
+  "description": "A blood test that measures the average blood sugar (glucose) levels over the past two to three months by identifying the percentage of hemoglobin coated with sugar.",
+  "units": "%",
+  "normal_range": {
+    "min": null,
+    "max": 5.6,
+    "notes": "A level below 5.7% is generally considered normal for healthy adults."
+  },
+  "low_range": {
+    "threshold": "4.0",
+    "meaning": "While less common, very low HbA1c levels may be associated with certain types of anemia or conditions that shorten the lifespan of red blood cells."
+  },
+  "high_range": {
+    "threshold": "5.7",
+    "meaning": "Values between 5.7% and 6.4% indicate prediabetes; 6.5% or higher on two separate tests typically indicates diabetes."
+  },
+  "clinical_significance": [
+    "Serves as a primary tool for monitoring long-term glycemic control.",
+    "Indicates the effectiveness of diabetes management plans over time.",
+    "Assists in assessing the risk of chronic complications related to high blood sugar, such as organ damage."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Chronic hyperglycemia (Type 1 or Type 2 diabetes)",
+      "Prediabetes",
+      "Poorly managed gestational diabetes",
+      "Untreated insulin resistance"
+    ],
+    "low": [
+      "Hemolytic anemia",
+      "Chronic kidney disease",
+      "Recent blood loss or blood transfusion",
+      "Sickle cell disease or other hemoglobin variants"
+    ]
+  },
+  "associated_symptoms": [
+    "Increased thirst (polydipsia)",
+    "Frequent urination (polyuria)",
+    "Unexplained weight loss",
+    "Fatigue or weakness",
+    "Blurred vision"
+  ],
+  "risk_implications": [
+    "Increased risk of cardiovascular disease (heart attack, stroke).",
+    "Potential for microvascular damage leading to neuropathy, retinopathy, and nephropathy.",
+    "Higher susceptibility to infections and poor wound healing."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a diet rich in whole grains, vegetables, and lean proteins while limiting refined sugars.",
+    "Engage in at least 150 minutes of moderate-intensity aerobic activity per week.",
+    "Maintain a healthy weight and monitor carbohydrate intake consistently."
+  ],
+  "when_to_consult_doctor": [
+    "If your HbA1c level is 5.7% or higher on a screening test.",
+    "If you experience persistent symptoms of high blood sugar such as extreme thirst or fatigue.",
+    "If you have a family history of diabetes and are over the age of 35."
+  ],
+  "related_features": [
+    "Fasting Blood Sugar (FBS)",
+    "Random Blood Sugar (RBS)",
+    "Estimated Average Glucose (eAG)",
+    "C-Peptide"
+  ],
+  "interpretation_notes": [
+    "Levels can be falsely high or low in individuals with anemia or hemoglobin variants.",
+    "Pregnancy can alter HbA1c results; alternative tests like fructosamine may be used.",
+    "The test reflects a weighted average, where the most recent month contributes more to the result than the months prior."
+  ]
+},
+{
+  "feature_name": "Insulin Level",
+  "category": "metabolic",
+  "description": "Measures the concentration of insulin, a hormone produced by the pancreas that enables cells to absorb glucose from the bloodstream for energy or storage.",
+  "units": "µU/mL",
+  "normal_range": {
+    "min": "2.6",
+    "max": "24.9",
+    "notes": "Reference ranges are typically based on fasting conditions (8-12 hours without food). Values may vary slightly between different laboratory standards."
+  },
+  "low_range": {
+    "threshold": "2.0",
+    "meaning": "Indicates low insulin production, which may suggest that the pancreas is not producing enough hormone to regulate blood glucose effectively."
+  },
+  "high_range": {
+    "threshold": "25.0",
+    "meaning": "Indicates hyperinsulinemia; often a sign that the body is struggling to use insulin effectively, requiring the pancreas to overcompensate."
+  },
+  "clinical_significance": [
+    "Used to evaluate the body's insulin sensitivity and production capacity.",
+    "Helps distinguish between different types of diabetes when used alongside glucose tests.",
+    "Assists in identifying the cause of hypoglycemia (low blood sugar) or metabolic syndrome.",
+    "Critical for assessing the health of the pancreas and its endocrine function."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Insulin resistance",
+      "Type 2 diabetes (early stages)",
+      "Polycystic Ovary Syndrome (PCOS)",
+      "Cushing's syndrome",
+      "Insulinoma (a rare pancreatic tumor)"
+    ],
+    "low": [
+      "Type 1 diabetes",
+      "Late-stage Type 2 diabetes (pancreatic exhaustion)",
+      "Chronic pancreatitis",
+      "Hypopituitarism"
+    ]
+  },
+  "associated_symptoms": [
+    "Weight gain, particularly abdominal fat",
+    "Extreme hunger (polyphagia)",
+    "Frequent skin tags or dark skin patches (acanthosis nigricans)",
+    "Fatigue after meals",
+    "Slow-healing wounds"
+  ],
+  "risk_implications": [
+    "Chronic high levels are a precursor to Type 2 diabetes and metabolic syndrome.",
+    "Increased risk of cardiovascular disease and hypertension.",
+    "Potential development of non-alcoholic fatty liver disease (NAFLD).",
+    "Low levels increase the risk of diabetic ketoacidosis (DKA) if blood sugar is high."
+  ],
+  "lifestyle_recommendations": [
+    "Focus on a diet low in refined carbohydrates and added sugars to reduce insulin demand.",
+    "Engage in regular physical activity, which naturally increases insulin sensitivity in muscle cells.",
+    "Prioritize consistent sleep and stress management to prevent cortisol-induced insulin spikes."
+  ],
+  "when_to_consult_doctor": [
+    "If fasting insulin levels are significantly above or below the reference range.",
+    "If you have symptoms of insulin resistance despite having a 'normal' fasting glucose result.",
+    "If you experience frequent episodes of dizziness or shakiness associated with low blood sugar."
+  ],
+  "related_features": [
+    "Fasting Blood Sugar (FBS)",
+    "HbA1c",
+    "C-Peptide",
+    "HOMA-IR (Homeostatic Model Assessment for Insulin Resistance)"
+  ],
+  "interpretation_notes": [
+    "Insulin levels must be interpreted in conjunction with a concurrent blood glucose test to be meaningful.",
+    "Fasting for at least 8 hours is mandatory for an accurate baseline reading.",
+    "Certain medications, including corticosteroids and oral contraceptives, can artificially elevate insulin levels."
+  ]
+},
+{
+  "feature_name": "C-Peptide",
+  "category": "metabolic",
+  "description": "A byproduct created when the pancreas produces insulin. It is released into the bloodstream in equal amounts to insulin, serving as a reliable marker of the body's natural insulin production.",
+  "units": "ng/mL",
+  "normal_range": {
+    "min": 0.5,
+    "max": 2.0,
+    "notes": "Reference ranges are typically based on fasting conditions. Normal values can vary slightly between laboratories and must be interpreted alongside concurrent blood glucose levels."
+  },
+  "low_range": {
+    "threshold": "0.5",
+    "meaning": "Indicates suppressed or insufficient natural insulin production by the pancreas."
+  },
+  "high_range": {
+    "threshold": "2.0",
+    "meaning": "Indicates high insulin production, often associated with insulin resistance or overactive pancreatic beta cells."
+  },
+  "clinical_significance": [
+    "Used to differentiate between Type 1 diabetes (low/absent production) and Type 2 diabetes (normal/high production).",
+    "Assists in identifying the cause of hypoglycemia (e.g., distinguishing between injected insulin and natural overproduction).",
+    "Provides an assessment of pancreatic beta-cell function and insulin reserve."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Insulin resistance",
+      "Type 2 diabetes (early to middle stages)",
+      "Cushing's syndrome",
+      "Kidney failure (due to reduced clearance)",
+      "Insulinoma (pancreatic tumor)"
+    ],
+    "low": [
+      "Type 1 diabetes",
+      "Advanced Type 2 diabetes (beta-cell exhaustion)",
+      "Starvation or prolonged fasting",
+      "Pancreatectomy (surgical removal of the pancreas)"
+    ]
+  },
+  "associated_symptoms": [
+    "Excessive thirst (polydipsia)",
+    "Frequent urination (polyuria)",
+    "Unexplained weight loss (in low production states)",
+    "Increased hunger",
+    "Dizziness or sweating (if associated with hypoglycemia)"
+  ],
+  "risk_implications": [
+    "Chronically low levels suggest a permanent requirement for external insulin therapy.",
+    "Persistently high levels are a key marker for metabolic syndrome and increased cardiovascular risk.",
+    "Abnormal levels are associated with long-term complications related to glucose mismanagement."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a low-glycemic index diet to reduce the demand on the pancreas.",
+    "Engage in regular aerobic and resistance exercise to improve insulin sensitivity.",
+    "Maintain a healthy weight to reduce the strain on insulin-producing cells."
+  ],
+  "when_to_consult_doctor": [
+    "If fasting C-peptide levels are outside the lab's reference range.",
+    "If you are experiencing symptoms of diabetes or metabolic dysfunction.",
+    "To help determine the specific type of diabetes for appropriate treatment planning."
+  ],
+  "related_features": [
+    "Insulin Level",
+    "Fasting Blood Sugar (FBS)",
+    "HbA1c",
+    "Anti-Islet Cell Antibodies"
+  ],
+  "interpretation_notes": [
+    "C-peptide has a longer half-life (approx. 30 minutes) than insulin, providing a more stable measurement of pancreatic output.",
+    "Results must be interpreted with caution in individuals with kidney disease, as C-peptide is primarily cleared by the kidneys.",
+    "Testing is usually performed after an 8-12 hour fast for accurate baseline results."
+  ]
+},
+{
+  "feature_name": "HOMA-IR (Insulin Resistance Index)",
+  "category": "metabolic",
+  "description": "The Homeostatic Model Assessment for Insulin Resistance (HOMA-IR) is a calculated index that uses fasting blood sugar and fasting insulin levels to estimate how much insulin the pancreas must produce to maintain glucose balance, indicating the body's level of insulin sensitivity.",
+  "units": "Index value (dimensionless)",
+  "normal_range": {
+    "min": 0.5,
+    "max": 1.0,
+    "notes": "Optimal insulin sensitivity is typically indicated by a score of 1.0 or less. Values between 1.0 and 1.9 are often considered acceptable but may warrant lifestyle monitoring."
+  },
+  "low_range": {
+    "threshold": "0.5",
+    "meaning": "Indicates high insulin sensitivity, which is generally associated with efficient metabolism and high physical fitness."
+  },
+  "high_range": {
+    "threshold": "1.9",
+    "meaning": "Values above 1.9 indicate early insulin resistance; values exceeding 2.9 suggest significant insulin resistance and a higher risk of metabolic dysfunction."
+  },
+  "clinical_significance": [
+    "Serves as an early marker for identifying metabolic syndrome and prediabetes.",
+    "Assesses the balance between hepatic glucose production and pancreatic insulin secretion.",
+    "Helps evaluate the risk of cardiovascular disease and hormonal imbalances."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Visceral (abdominal) obesity",
+      "Sedentary lifestyle and lack of physical activity",
+      "Diets high in refined carbohydrates and added sugars",
+      "Chronic inflammation or high stress levels",
+      "Polycystic Ovary Syndrome (PCOS)"
+    ],
+    "low": [
+      "Exceptional insulin sensitivity (common in endurance athletes)",
+      "Low-carbohydrate or ketogenic dietary patterns",
+      "Optimal weight and lean body mass"
+    ]
+  },
+  "associated_symptoms": [
+    "Increased waist circumference",
+    "Fatigue, particularly after consuming carbohydrates",
+    "Difficulty losing weight despite caloric restriction",
+    "Frequent hunger or sugar cravings",
+    "Darkened skin patches in folds (acanthosis nigricans)"
+  ],
+  "risk_implications": [
+    "Increased probability of developing Type 2 Diabetes Mellitus.",
+    "Associated with Non-Alcoholic Fatty Liver Disease (NAFLD).",
+    "Elevated risk of hypertension and atherosclerosis.",
+    "Potential for long-term pancreatic beta-cell exhaustion."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a Mediterranean or low-glycemic index diet rich in whole foods and fiber.",
+    "Incorporate both resistance training and aerobic exercise to enhance muscle glucose uptake.",
+    "Prioritize consistent sleep and stress management to regulate cortisol levels."
+  ],
+  "when_to_consult_doctor": [
+    "If the HOMA-IR value is consistently above 1.9 during routine screenings.",
+    "If metabolic concerns exist despite having normal fasting blood sugar results.",
+    "If you have a family history of diabetes and exhibit symptoms of insulin resistance."
+  ],
+  "related_features": [
+    "Fasting Blood Sugar (FBS)",
+    "Fasting Insulin",
+    "HbA1c",
+    "Triglyceride-to-HDL Ratio"
+  ],
+  "interpretation_notes": [
+    "Accuracy requires an 8-12 hour fast; food intake prior to the test will invalidate the result.",
+    "The index is calculated using the formula: $HOMA-IR = \\frac{Fasting\\ Insulin\\ (\\mu U/mL) \\times Fasting\\ Glucose\\ (mg/dL)}{405}$.",
+    "This model is less reliable in individuals with severe insulin deficiency or late-stage Type 2 diabetes where the pancreas can no longer produce sufficient insulin."
+  ]
+},
+{
+  "feature_name": "Total Cholesterol (Lipid Profile)",
+  "category": "blood_test",
+  "description": "A measurement of the overall amount of cholesterol in the blood, including low-density lipoprotein (LDL), high-density lipoprotein (HDL), and other lipid components.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": null,
+    "max": 200,
+    "notes": "Levels below 200 mg/dL are considered desirable for adults. Optimal ranges may be lower for individuals with existing cardiovascular conditions."
+  },
+  "low_range": {
+    "threshold": "120",
+    "meaning": "Hypocholesterolemia; while less common, significantly low levels can sometimes be associated with hyperthyroidism, malabsorption, or chronic liver disease."
+  },
+  "high_range": {
+    "threshold": "240",
+    "meaning": "Hypercholesterolemia; levels at or above this threshold are considered high and indicate a significantly increased risk of cardiovascular complications."
+  },
+  "clinical_significance": [
+    "Used as a primary screening tool to evaluate the risk of developing cardiovascular disease.",
+    "Indicates the total lipid burden circulating within the vascular system.",
+    "Affects the development of atherosclerosis (narrowing of the arteries)."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Diet high in saturated and trans fats",
+      "Lack of regular physical activity",
+      "Genetics (e.g., Familial Hypercholesterolemia)",
+      "Obesity",
+      "Hypothyroidism"
+    ],
+    "low": [
+      "Malnutrition or severe malabsorption syndromes",
+      "Overactive thyroid (hyperthyroidism)",
+      "Chronic liver failure",
+      "Severe acute illness or infection"
+    ]
+  },
+  "associated_symptoms": [
+    "Typically asymptomatic (the 'silent' marker)",
+    "Xanthomas (yellowish fatty deposits under the skin or around eyes)",
+    "Corneal arcus (a grayish-white ring around the cornea, especially in younger individuals)"
+  ],
+  "risk_implications": [
+    "Increased risk of Coronary Artery Disease (CAD).",
+    "Higher probability of myocardial infarction (heart attack) or stroke.",
+    "Potential development of Peripheral Artery Disease (PAD)."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a heart-healthy diet low in saturated fats and high in omega-3 fatty acids.",
+    "Engage in at least 150 minutes of moderate-intensity aerobic exercise per week.",
+    "Eliminate tobacco use and limit alcohol consumption."
+  ],
+  "when_to_consult_doctor": [
+    "If total cholesterol levels are consistently above 200 mg/dL.",
+    "If you have a family history of early-onset heart disease or stroke.",
+    "If high cholesterol is accompanied by other risk factors like hypertension or diabetes."
+  ],
+  "related_features": [
+    "LDL Cholesterol ('Bad' Cholesterol)",
+    "HDL Cholesterol ('Good' Cholesterol)",
+    "Triglycerides",
+    "Non-HDL Cholesterol"
+  ],
+  "interpretation_notes": [
+    "Total cholesterol is a composite score; it must be interpreted alongside its individual components (HDL, LDL, and Triglycerides).",
+    "A high total cholesterol may be less clinically concerning if it is driven by exceptionally high HDL ('good') cholesterol.",
+    "Though non-fasting tests are becoming more common, a 9–12 hour fast is often preferred for a complete lipid profile to ensure triglyceride accuracy."
+  ]
+},
+{
+  "feature_name": "LDL (Bad Cholesterol)",
+  "category": "blood_test",
+  "description": "Low-density lipoprotein (LDL) is a molecule that transports cholesterol from the liver to the body's cells. It is commonly termed 'bad' cholesterol because excessive amounts can lead to the accumulation of fatty deposits in arterial walls.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": null,
+    "max": 100,
+    "notes": "A level below 100 mg/dL is considered optimal. For individuals at very high risk of heart disease, clinicians often aim for levels below 70 mg/dL or 55 mg/dL."
+  },
+  "low_range": {
+    "threshold": "50",
+    "meaning": "Significantly low LDL (hypobetalipoproteinemia) is rare and may indicate issues with nutrient absorption, hyperthyroidism, or chronic liver disorders."
+  },
+  "high_range": {
+    "threshold": "160",
+    "meaning": "Levels of 160-189 mg/dL are considered high; 190 mg/dL or above is considered very high. High levels suggest an elevated risk for the development of atherosclerosis."
+  },
+  "clinical_significance": [
+    "Serves as the primary indicator for assessing cardiovascular disease (CVD) risk.",
+    "Directly contributes to the formation of atherosclerotic plaques which narrow and stiffen arteries.",
+    "Affects the circulatory system, specifically coronary, cerebral, and peripheral arteries."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Dietary intake high in saturated and trans fats",
+      "Genetic predispositions (e.g., Familial Hypercholesterolemia)",
+      "Sedentary lifestyle and lack of physical activity",
+      "Obesity and metabolic syndrome",
+      "Secondary conditions like hypothyroidism or chronic kidney disease"
+    ],
+    "low": [
+      "Severe malnutrition or malabsorption syndromes",
+      "Overactive thyroid gland (hyperthyroidism)",
+      "Chronic liver failure",
+      "Severe infection or inflammatory states"
+    ]
+  },
+  "associated_symptoms": [
+    "Often asymptomatic (no physical symptoms) until significant arterial blockage occurs",
+    "Xanthelasma (yellowish deposits around the eyelids)",
+    "Angina (chest pain) in advanced stages of arterial narrowing"
+  ],
+  "risk_implications": [
+    "Increased risk of myocardial infarction (heart attack).",
+    "Higher probability of ischemic stroke.",
+    "Potential development of Peripheral Artery Disease (PAD), affecting limb circulation."
+  ],
+  "lifestyle_recommendations": [
+    "Reduce intake of red meats and full-fat dairy; replace with healthy fats like those in avocados and nuts.",
+    "Increase consumption of soluble fiber (e.g., oats, beans, lentils) which helps lower LDL absorption.",
+    "Perform at least 30 minutes of moderate-intensity aerobic exercise most days of the week."
+  ],
+  "when_to_consult_doctor": [
+    "If LDL levels are consistently above 130 mg/dL, especially if other risk factors (smoking, high blood pressure) are present.",
+    "If you have a strong family history of early-onset heart disease.",
+    "If you experience sudden chest pain or shortness of breath."
+  ],
+  "related_features": [
+    "HDL (Good Cholesterol)",
+    "Triglycerides",
+    "Apolipoprotein B (ApoB)",
+    "Non-HDL Cholesterol"
+  ],
+  "interpretation_notes": [
+    "LDL is traditionally calculated using the Friedewald formula, but direct measurement may be used if triglycerides are very high.",
+    "Evaluation must consider the 'whole picture,' including the ratio of LDL to HDL and the presence of other metabolic markers.",
+    "Recent guidelines emphasize the importance of non-fasting lipid panels, though fasting may still be requested for specific clinical contexts."
+  ]
+},
+{
+  "feature_name": "HDL (Good Cholesterol(Lipid Profile))",
+  "category": "blood_test",
+  "description": "High-density lipoprotein (HDL) acts as a scavenger in the bloodstream, collecting excess cholesterol and transporting it back to the liver for processing and excretion. It is known as 'good' cholesterol because it helps prevent plaque buildup in the arteries.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": 40,
+    "max": null,
+    "notes": "Optimal levels are 60 mg/dL or higher. For men, a level below 40 mg/dL is considered low; for women, a level below 50 mg/dL is considered low."
+  },
+  "low_range": {
+    "threshold": "40",
+    "meaning": "Indicates a reduced ability to remove cholesterol from the arterial walls, which increases the risk of developing heart disease and atherosclerosis."
+  },
+  "high_range": {
+    "threshold": "60",
+    "meaning": "Levels at or above 60 mg/dL are considered cardioprotective, significantly reducing the risk of cardiovascular events."
+  },
+  "clinical_significance": [
+    "Drives the process of reverse cholesterol transport.",
+    "Exhibits anti-inflammatory and antioxidant properties within the vascular system.",
+    "Protects the endothelial lining of blood vessels from damage."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Regular aerobic exercise",
+      "Genetic factors",
+      "High intake of healthy monounsaturated fats",
+      "Moderate alcohol consumption (though not recommended as a health strategy)"
+    ],
+    "low": [
+      "Sedentary lifestyle and lack of exercise",
+      "Smoking and tobacco use",
+      "Obesity and metabolic syndrome",
+      "Type 2 diabetes",
+      "High consumption of trans fats and refined carbohydrates"
+    ]
+  },
+  "associated_symptoms": [
+    "Typically asymptomatic (the 'silent' protector)",
+    "Rarely, extremely low levels may be linked to certain genetic lipid disorders"
+  ],
+  "risk_implications": [
+    "Low levels are a strong independent risk factor for coronary artery disease.",
+    "Increased susceptibility to myocardial infarction (heart attack) and stroke.",
+    "Strongly associated with metabolic syndrome when combined with high triglycerides and high blood pressure."
+  ],
+  "lifestyle_recommendations": [
+    "Focus on aerobic exercise (e.g., swimming, cycling, running) for at least 30 minutes daily.",
+    "Incorporate heart-healthy fats such as olive oil, nuts, and fatty fish into the diet.",
+    "Quit smoking to immediately improve HDL levels and vascular health."
+  ],
+  "when_to_consult_doctor": [
+    "If HDL levels are consistently below 40 mg/dL (men) or 50 mg/dL (women).",
+    "If you have a strong family history of early heart disease despite 'normal' total cholesterol.",
+    "If your lipid profile shows a high ratio of Total Cholesterol to HDL."
+  ],
+  "related_features": [
+    "Total Cholesterol",
+    "LDL (Bad Cholesterol)",
+    "Triglycerides",
+    "Apolipoprotein A-I (ApoA-I)"
+  ],
+  "interpretation_notes": [
+    "HDL is one part of the lipid profile; it must be interpreted alongside LDL and triglycerides to assess total cardiovascular risk.",
+    "Very high HDL (>100 mg/dL) is sometimes associated with specific genetic variants and may not always provide extra protection.",
+    "Levels can be temporarily lowered by acute illness, infection, or major surgery."
+  ]
+},
+{
+  "feature_name": "Triglycerides (Lipid Profile)",
+  "category": "blood_test",
+  "description": "A measurement of triglycerides, the most common type of fat (lipid) found in the blood, which the body uses for energy between meals.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": null,
+    "max": 150,
+    "notes": "Levels below 150 mg/dL are considered desirable for adults. Optimal levels are often lower for children and adolescents."
+  },
+  "low_range": {
+    "threshold": "50",
+    "meaning": "Hypotriglyceridemia; significantly low levels are uncommon but may be associated with underlying metabolic or nutritional issues."
+  },
+  "high_range": {
+    "threshold": "150",
+    "meaning": "Hypertriglyceridemia; levels between 150-199 mg/dL are borderline high, 200-499 mg/dL are high, and 500 mg/dL or above are considered very high."
+  },
+  "clinical_significance": [
+    "Used as a key component of a lipid panel to assess cardiovascular risk.",
+    "Reflects the efficiency of the body's calorie storage and energy utilization.",
+    "Highly sensitive to dietary habits, especially the consumption of sugars and alcohol."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Diets high in refined sugars, carbohydrates, and saturated fats",
+      "Regular and excessive alcohol consumption",
+      "Sedentary lifestyle and obesity",
+      "Poorly managed Type 2 diabetes or metabolic syndrome",
+      "Hypothyroidism or kidney disease"
+    ],
+    "low": [
+      "Severe malnutrition or extremely low-fat diets",
+      "Malabsorption syndromes",
+      "Hyperthyroidism (overactive thyroid)",
+      "Certain cholesterol-lowering medications"
+    ]
+  },
+  "associated_symptoms": [
+    "Typically asymptomatic (no physical symptoms) in mild to moderate cases",
+    "Xanthomas (small, yellowish fatty deposits under the skin) in severe cases",
+    "Acute abdominal pain (associated with pancreatic inflammation at very high levels)"
+  ],
+  "risk_implications": [
+    "Increased risk of arteriosclerosis (hardening and thickening of the artery walls).",
+    "Strong correlation with increased risk of stroke, heart attack, and heart disease.",
+    "Very high levels (above 500 mg/dL) significantly increase the risk of acute pancreatitis."
+  ],
+  "lifestyle_recommendations": [
+    "Limit intake of added sugars, fructose, and refined grains.",
+    "Increase consumption of healthy unsaturated fats and Omega-3 fatty acids (e.g., fatty fish).",
+    "Engage in at least 30 minutes of moderate physical activity most days to lower lipid levels."
+  ],
+  "when_to_consult_doctor": [
+    "If triglyceride levels are consistently above 150 mg/dL on repeated tests.",
+    "If a laboratory result shows levels exceeding 500 mg/dL.",
+    "If you experience severe abdominal pain accompanied by a history of high lipids."
+  ],
+  "related_features": [
+    "VLDL (Very Low-Density Lipoprotein)",
+    "HDL (Good Cholesterol)",
+    "Fasting Blood Sugar (FBS)",
+    "Non-HDL Cholesterol"
+  ],
+  "interpretation_notes": [
+    "Fasting for 9–12 hours is generally required for accurate results, as levels spike significantly after eating.",
+    "Recent alcohol consumption (within 24 hours) can cause a temporary and misleading elevation in levels.",
+    "Triglyceride levels are often interpreted as part of 'Metabolic Syndrome' if they occur alongside high blood pressure and low HDL."
+  ]
+},
+{
+  "feature_name": "VLDL (Very Low-Density Lipoprotein)",
+  "category": "blood_test",
+  "description": "A type of lipoprotein produced by the liver that primarily transports triglycerides through the bloodstream to body tissues for energy or storage. It is considered a precursor to LDL cholesterol.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": 2,
+    "max": 30,
+    "notes": "Levels between 2 and 30 mg/dL are generally considered normal for adults. This value is typically calculated based on fasting triglyceride levels."
+  },
+  "low_range": {
+    "threshold": "2",
+    "meaning": "Significantly low VLDL levels are uncommon and may be associated with rare genetic disorders, malabsorption, or hyperthyroidism."
+  },
+  "high_range": {
+    "threshold": "30",
+    "meaning": "Elevated VLDL indicates a high concentration of triglycerides in the blood, which contributes to the development of plaque in the arteries."
+  },
+  "clinical_significance": [
+    "Serves as a marker for triglyceride-rich lipoprotein metabolism.",
+    "Contributes to the assessment of overall cardiovascular and metabolic health.",
+    "Plays a role in identifying the risk of atherosclerosis and coronary artery disease."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Obesity and high-calorie diets",
+      "Frequent consumption of refined sugars and alcohol",
+      "Poorly controlled Type 2 diabetes",
+      "Hypothyroidism",
+      "Chronic kidney disease or nephrotic syndrome"
+    ],
+    "low": [
+      "Severe malnutrition",
+      "Malabsorption syndromes",
+      "Hyperthyroidism (overactive thyroid)",
+      "Certain rare genetic lipid conditions (e.g., abetalipoproteinemia)"
+    ]
+  },
+  "associated_symptoms": [
+    "Typically asymptomatic (the 'silent' risk factor)",
+    "Yellowish skin deposits (xanthomas) if levels are extremely high",
+    "Abdominal discomfort if associated with high triglycerides and pancreatic irritation"
+  ],
+  "risk_implications": [
+    "Increased risk of developing atherosclerosis (narrowing of the arteries).",
+    "Higher probability of cardiovascular events such as heart attack or stroke.",
+    "Associated with metabolic syndrome and fatty liver disease."
+  ],
+  "lifestyle_recommendations": [
+    "Reduce intake of added sugars, fructose, and simple carbohydrates.",
+    "Limit alcohol consumption, as it directly stimulates VLDL production in the liver.",
+    "Maintain a regular exercise program to improve the clearance of triglycerides from the blood."
+  ],
+  "when_to_consult_doctor": [
+    "If VLDL levels are consistently above 30 mg/dL on repeated lab tests.",
+    "If high VLDL is accompanied by high triglycerides or low HDL cholesterol.",
+    "If you have a personal or family history of early heart disease."
+  ],
+  "related_features": [
+    "Triglycerides",
+    "LDL (Bad Cholesterol)",
+    "Non-HDL Cholesterol",
+    "Apolipoprotein B (ApoB)"
+  ],
+  "interpretation_notes": [
+    "VLDL is usually estimated using the calculation $VLDL = \\frac{Triglycerides}{5}$.",
+    "The calculated method is inaccurate if fasting triglyceride levels exceed 400 mg/dL; in such cases, direct measurement is required.",
+    "Because VLDL is derived from triglycerides, an 8–12 hour fast is mandatory for an accurate result."
+  ]
+},
+{
+  "feature_name": "Cholesterol/HDL Ratio (Lipid Profile)",
+  "category": "blood_test",
+  "description": "A calculated index obtained by dividing the total cholesterol value by the HDL (good) cholesterol value, providing a more comprehensive assessment of cardiovascular risk than total cholesterol alone.",
+  "units": "Ratio (dimensionless)",
+  "normal_range": {
+    "min": null,
+    "max": 5.0,
+    "notes": "An ideal ratio is considered to be below 3.5. A ratio below 5.0 is generally considered acceptable for most adults."
+  },
+  "low_range": {
+    "threshold": "3.5",
+    "meaning": "Indicates a highly favorable balance of lipids, typically associated with lower cardiovascular risk due to a high proportion of protective HDL cholesterol."
+  },
+  "high_range": {
+    "threshold": "5.0",
+    "meaning": "Indicates an unfavorable lipid balance, suggesting a higher likelihood of plaque buildup in the arteries and increased risk of heart disease."
+  },
+  "clinical_significance": [
+    "Used as a reliable predictor of ischemic heart disease risk.",
+    "Reflects the balance between cholesterol available for arterial deposition and cholesterol being removed from the body.",
+    "Assists in identifying metabolic syndrome and assessing overall heart health."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Low levels of HDL (good) cholesterol",
+      "High levels of LDL (bad) cholesterol",
+      "Sedentary lifestyle and lack of physical activity",
+      "Smoking and tobacco use",
+      "Diets high in trans and saturated fats"
+    ],
+    "low": [
+      "High levels of HDL cholesterol resulting from regular vigorous aerobic exercise",
+      "Effective use of lipid-lowering therapies",
+      "Healthy dietary patterns high in monounsaturated fats (e.g., olive oil, nuts)"
+    ]
+  },
+  "associated_symptoms": [
+    "Typically asymptomatic (the 'silent' risk marker)",
+    "Advanced arterial narrowing may lead to fatigue or chest pain during physical exertion"
+  ],
+  "risk_implications": [
+    "Increased risk of atherosclerosis (hardening of the arteries).",
+    "Higher probability of cardiovascular events such as heart attack or stroke.",
+    "Strong correlation with coronary artery disease (CAD)."
+  ],
+  "lifestyle_recommendations": [
+    "Engage in daily aerobic exercise to naturally boost HDL levels.",
+    "Replace saturated fats with heart-healthy unsaturated fats found in fish and vegetables.",
+    "Increase intake of soluble fiber to help manage total cholesterol levels."
+  ],
+  "when_to_consult_doctor": [
+    "If the ratio is consistently above 5.0.",
+    "If you have existing risk factors like diabetes or high blood pressure and the ratio is above 3.5.",
+    "To discuss the need for medical intervention based on your overall cardiovascular risk profile."
+  ],
+  "related_features": [
+    "Total Cholesterol",
+    "HDL Cholesterol",
+    "LDL Cholesterol",
+    "Triglycerides"
+  ],
+  "interpretation_notes": [
+    "The ratio is calculated as: $Total\\ Cholesterol \\div HDL\\ Cholesterol$.",
+    "A 'normal' total cholesterol can still result in a high ratio if the HDL level is significantly low.",
+    "This ratio should be interpreted alongside other factors like age, sex, and family history for a complete risk assessment."
+  ]
+},
+{
+  "feature_name": "Serum Creatinine (Kidney Function Test(KFT))",
+  "category": "blood_test",
+  "description": "A measurement of creatinine, a waste product produced by muscle metabolism, which is filtered from the blood by the kidneys and excreted in urine. It serves as a primary indicator of how well the kidneys are filtering waste.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": 0.6,
+    "max": 1.3,
+    "notes": "Ranges typically vary by biological sex and muscle mass. For adult males, the range is usually 0.7 to 1.3 mg/dL; for adult females, it is 0.6 to 1.1 mg/dL."
+  },
+  "low_range": {
+    "threshold": "0.5",
+    "meaning": "Often associated with lower muscle mass, aging, or certain conditions like advanced liver disease or severe malnutrition."
+  },
+  "high_range": {
+    "threshold": "1.4",
+    "meaning": "Indicates that the kidneys may not be filtering efficiently. Elevated levels suggest potential kidney dysfunction or impairment."
+  },
+  "clinical_significance": [
+    "Used to calculate the Estimated Glomerular Filtration Rate (eGFR), the gold standard for assessing kidney health.",
+    "Reflects the balance between waste production in the muscles and waste removal by the renal system.",
+    "Critical for monitoring the progression of chronic kidney disease (CKD) or acute kidney injury (AKI)."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Chronic Kidney Disease (CKD)",
+      "Dehydration or low blood volume",
+      "Urinary tract obstruction (e.g., kidney stones)",
+      "High intake of dietary protein or creatine supplements",
+      "Specific medications that affect renal clearance"
+    ],
+    "low": [
+      "Muscle wasting or atrophy (sarcopenia)",
+      "Pregnancy (due to increased filtration rates)",
+      "Severe liver disease",
+      "Extremely low protein diets"
+    ]
+  },
+  "associated_symptoms": [
+    "Changes in urine output or frequency",
+    "Swelling in the hands, ankles, or face (edema)",
+    "Fatigue or shortness of breath",
+    "Persistent nausea or loss of appetite",
+    "Itchy skin (pruritus)"
+  ],
+  "risk_implications": [
+    "Long-term elevation is linked to permanent loss of kidney function.",
+    "Higher risk of cardiovascular disease due to the heart-kidney connection.",
+    "Potential for electrolyte imbalances and toxic waste accumulation in the blood."
+  ],
+  "lifestyle_recommendations": [
+    "Maintain adequate hydration, unless fluid restriction is medically advised.",
+    "Limit excessive intake of protein supplements or creatine if kidney function is a concern.",
+    "Manage blood pressure and blood sugar levels consistently to protect renal vessels."
+  ],
+  "when_to_consult_doctor": [
+    "If creatinine levels are found to be above the laboratory's reference range during routine screening.",
+    "If you experience persistent swelling in your extremities or changes in urination.",
+    "If you have a history of diabetes or hypertension and show rising creatinine trends."
+  ],
+  "related_features": [
+    "eGFR (Estimated Glomerular Filtration Rate)",
+    "BUN (Blood Urea Nitrogen)",
+    "BUN/Creatinine Ratio",
+    "Urine Albumin-to-Creatinine Ratio (UACR)"
+  ],
+  "interpretation_notes": [
+    "A single elevated result may be temporary (e.g., due to dehydration or intense exercise) and often requires repeat testing.",
+    "Creatinine levels are influenced by body size and muscle mass; an athletic person may have a higher 'normal' baseline than a sedentary person.",
+    "Creatinine is less sensitive in early-stage kidney disease; significant loss of function may occur before levels rise above the 'normal' threshold."
+  ]
+},
+{
+  "feature_name": "Blood Urea Nitrogen (BUN) (Kidney Function Test(KFT))",
+  "category": "blood_test",
+  "description": "Measures the amount of urea nitrogen in the blood. Urea is a waste product created in the liver when the body breaks down proteins, which is then filtered out of the blood by the kidneys.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": "7",
+    "max": "20",
+    "notes": "Normal ranges may vary slightly between laboratories. Values tend to increase naturally with age and are generally higher in men than in women."
+  },
+  "low_range": {
+    "threshold": "7",
+    "meaning": "Lower than normal levels are less common and typically indicate issues with protein intake or liver processing rather than kidney dysfunction."
+  },
+  "high_range": {
+    "threshold": "21",
+    "meaning": "Elevated levels suggest that the kidneys are not filtering waste effectively or that there is an increase in protein breakdown in the body."
+  },
+  "clinical_significance": [
+    "Serves as a key indicator of renal (kidney) excretory function.",
+    "Provides insight into the body's protein metabolism and hydration status.",
+    "Assists in evaluating the health of both the liver (where urea is made) and the kidneys (where it is excreted)."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Dehydration (decreased blood flow to kidneys)",
+      "Kidney disease or failure",
+      "High-protein diet",
+      "Congestive heart failure",
+      "Gastrointestinal bleeding",
+      "Urinary tract obstruction"
+    ],
+    "low": [
+      "Severe liver disease",
+      "Malnutrition or low-protein diet",
+      "Overhydration",
+      "Pregnancy (due to increased blood volume and filtration)"
+    ]
+  },
+  "associated_symptoms": [
+    "Fatigue or lethargy",
+    "Swelling in the legs or ankles (edema)",
+    "Changes in urinary frequency or color",
+    "Nausea or loss of appetite",
+    "Mental confusion (in severe cases of waste buildup)"
+  ],
+  "risk_implications": [
+    "Chronic elevation may indicate progressive chronic kidney disease (CKD).",
+    "Significant fluctuations can be associated with acute kidney injury (AKI).",
+    "Persistent abnormalities may reflect underlying cardiovascular stress or liver dysfunction."
+  ],
+  "lifestyle_recommendations": [
+    "Maintain consistent hydration to support renal filtration.",
+    "Monitor dietary protein intake if kidney function is compromised.",
+    "Manage blood pressure and glucose levels to prevent long-term kidney damage."
+  ],
+  "when_to_consult_doctor": [
+    "If BUN levels are consistently elevated alongside other markers like Creatinine.",
+    "If you experience persistent symptoms of dehydration or unexplained swelling.",
+    "If you have a known history of heart or liver disease and observe abnormal test results."
+  ],
+  "related_features": [
+    "Serum Creatinine",
+    "BUN/Creatinine Ratio",
+    "eGFR (Estimated Glomerular Filtration Rate)",
+    "Urine Albumin"
+  ],
+  "interpretation_notes": [
+    "BUN is more sensitive to non-kidney factors (like diet and hydration) than Creatinine.",
+    "A high BUN with a normal Creatinine often points to dehydration or high protein intake rather than kidney disease.",
+    "Results must be interpreted in the context of a full Kidney Function Test (KFT) panel."
+  ]
+},
+{
+  "feature_name": "Urea (Kidney Function Test(KFT))",
+  "category": "blood_test",
+  "description": "A waste product formed in the liver during the breakdown of proteins, which is then filtered from the blood by the kidneys and excreted in urine.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": "15.0",
+    "max": "45.0",
+    "notes": "Normal values vary significantly by laboratory, age, and pregnancy status; levels naturally tend to increase slightly with age."
+  },
+  "low_range": {
+    "threshold": "15.0",
+    "meaning": "Lower than normal levels are often of limited clinical concern but may reflect specific metabolic or physiological states."
+  },
+  "high_range": {
+    "threshold": "45.0",
+    "meaning": "Elevated levels, known as azotemia, indicate that the kidneys may not be filtering waste effectively or that urea production has increased."
+  },
+  "clinical_significance": [
+    "Serves as a primary indicator of renal (kidney) excretory function.",
+    "Reflects the balance between protein metabolism in the liver and filtration by the kidneys.",
+    "Used to monitor the progression of known kidney disease or the impact of medications on renal health."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Dehydration (reduces blood flow to kidneys)",
+      "Chronic or acute kidney disease",
+      "High-protein diet",
+      "Gastrointestinal bleeding",
+      "Certain medications (e.g., corticosteroids, tetracyclines)"
+    ],
+    "low": [
+      "Severe liver disease (reduced urea production)",
+      "Malnutrition or low-protein diet",
+      "Overhydration (hemodilution)",
+      "Late-stage pregnancy (due to increased blood volume)"
+    ]
+  },
+  "associated_symptoms": [
+    "Fatigue or lethargy",
+    "Swelling in legs, ankles, or feet (edema)",
+    "Changes in frequency or color of urination",
+    "Nausea or loss of appetite",
+    "Confusion (in severe, acute elevations)"
+  ],
+  "risk_implications": [
+    "Increased risk of developing or progressing Chronic Kidney Disease (CKD).",
+    "Potential for uremic toxicity if levels remain severely elevated.",
+    "Association with increased cardiovascular risk when secondary to kidney dysfunction."
+  ],
+  "lifestyle_recommendations": [
+    "Maintain consistent daily hydration based on activity level.",
+    "Manage dietary protein intake under the guidance of a professional if kidney issues are suspected.",
+    "Monitor and control blood pressure and blood sugar levels regularly."
+  ],
+  "when_to_consult_doctor": [
+    "Seek medical advice if urea levels are consistently outside the reference range provided by the lab, especially if accompanied by persistent swelling or urinary changes."
+  ],
+  "related_features": [
+    "Creatinine",
+    "Estimated Glomerular Filtration Rate (eGFR)",
+    "BUN/Creatinine Ratio",
+    "Uric Acid",
+    "Electrolytes (Sodium, Potassium)"
+  ],
+  "interpretation_notes": [
+    "Urea is sensitive to non-kidney factors like diet and hydration, making it less specific than Creatinine for kidney function alone.",
+    "A high Urea with a normal Creatinine often suggests dehydration or high protein intake rather than intrinsic kidney damage."
+  ]
+},
+{
+  "feature_name": "{eGFR (Kidney Function Test(KFT))}",
+  "category": "blood_test",
+  "description": "Estimated Glomerular Filtration Rate (eGFR) is a calculated value that estimates how well the kidneys filter waste products from the blood per minute, standardized to body surface area.",
+  "units": "mL/min/1.73m²",
+  "normal_range": {
+    "min": "90",
+    "max": null,
+    "notes": "A result of 60 or higher is generally considered within the normal range for most adults, though values naturally decline with age (approximately 1 mL/min per year after age 40)."
+  },
+  "low_range": {
+    "threshold": "60",
+    "meaning": "Values below 60 mL/min/1.73m² for three months or more are a primary indicator of Chronic Kidney Disease (CKD)."
+  },
+  "high_range": {
+    "threshold": null,
+    "meaning": "While higher values typically indicate better function, extremely high levels (hyperfiltration) can sometimes occur in early-stage diabetes or pregnancy."
+  },
+  "clinical_significance": [
+    "Serves as the gold standard for staging the severity of Chronic Kidney Disease (CKD).",
+    "Indicates the overall efficiency of the kidney's filtering units (nephrons).",
+    "Determines the safety and appropriate dosing of various medications cleared by the kidneys."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Pregnancy",
+      "Early-stage Diabetic Nephropathy (Hyperfiltration phase)",
+      "High protein intake (transient)"
+    ],
+    "low": [
+      "Long-term Diabetes mellitus",
+      "Chronic Hypertension (High blood pressure)",
+      "Glomerulonephritis (Inflammation of kidney filters)",
+      "Polycystic Kidney Disease",
+      "Prolonged use of nephrotoxic drugs (e.g., certain NSAIDs)"
+    ]
+  },
+  "associated_symptoms": [
+    "Often asymptomatic in stages 1-3",
+    "Edema (swelling, particularly in the legs and ankles)",
+    "Fatigue or decreased energy",
+    "Changes in urine frequency or appearance (foamy urine)",
+    "Dry or itchy skin"
+  ],
+  "risk_implications": [
+    "Progression toward end-stage renal disease (ESRD) requiring dialysis or transplant.",
+    "Strong association with increased risk of cardiovascular disease and stroke.",
+    "Complications such as anemia, mineral and bone disorders, and electrolyte imbalances."
+  ],
+  "lifestyle_recommendations": [
+    "Strict management of blood pressure (target often <130/80 mmHg) and blood glucose.",
+    "Reduction of dietary sodium (salt) intake to reduce kidney workload.",
+    "Avoiding the use of over-the-counter NSAIDs (e.g., Ibuprofen, Naproxen) without medical consultation.",
+    "Maintaining adequate hydration while avoiding excessive protein loading."
+  ],
+  "when_to_consult_doctor": [
+    "Seek medical consultation if eGFR is consistently below 60 or if a laboratory report indicates a significant drop from previous baseline measurements."
+  ],
+  "related_features": [
+    "Serum Creatinine",
+    "Blood Urea Nitrogen (BUN)",
+    "Urine Albumin-to-Creatinine Ratio (uACR)",
+    "Serum Cystatin C"
+  ],
+  "interpretation_notes": [
+    "eGFR is an estimate; direct measurement (mGFR) is more accurate but rarely performed clinically.",
+    "Accuracy may be limited in individuals with extreme muscle mass (e.g., bodybuilders, amputees, or those with muscle-wasting diseases) as creatinine is a muscle byproduct.",
+    "Calculations are currently standardized using the CKD-EPI formula, which is the most widely accepted global standard."
+  ]
+},
+{
+  "feature_name": "Uric Acid (Kidney Function Test(KFT))",
+  "category": "blood_test",
+  "description": "A waste product created when the body breaks down purines, which are substances found naturally in the body and in certain foods and drinks.",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": "2.4",
+    "max": "7.0",
+    "notes": "Reference ranges vary by sex: typically 3.4–7.0 mg/dL for men and 2.4–6.0 mg/dL for women. Pediatric ranges are generally lower."
+  },
+  "low_range": {
+    "threshold": "2.4",
+    "meaning": "Known as hypouricemia, low levels are relatively uncommon and often have less clinical urgency than high levels but may warrant investigation into metabolic or liver health."
+  },
+  "high_range": {
+    "threshold": "7.0",
+    "meaning": "Known as hyperuricemia, this indicates an accumulation of uric acid because the kidneys are not filtering it efficiently or the body is overproducing it."
+  },
+  "clinical_significance": [
+    "Used primarily to detect and monitor gout, a form of inflammatory arthritis caused by crystal deposits in joints.",
+    "Serves as an indicator of kidney health and the potential risk for developing uric acid-based kidney stones.",
+    "Monitors cell turnover rates, particularly during certain medical treatments like chemotherapy."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Diet high in purines (e.g., red meat, organ meats, seafood, beer)",
+      "Kidney disease or decreased renal filtration",
+      "Obesity and metabolic syndrome",
+      "Use of certain diuretics ('water pills')",
+      "Dehydration"
+    ],
+    "low": [
+      "Low-purine diet",
+      "Fanconi syndrome (a kidney tubule disorder)",
+      "Severe liver disease",
+      "Wilson's disease",
+      "Syndrome of inappropriate antidiuretic hormone (SIADH)"
+    ]
+  },
+  "associated_symptoms": [
+    "Severe joint pain, swelling, and redness (especially in the big toe)",
+    "Joint stiffness",
+    "Intense pain in the back or side (flank pain) if kidney stones are present",
+    "Blood in the urine"
+  ],
+  "risk_implications": [
+    "Chronic hyperuricemia can lead to permanent joint and kidney damage.",
+    "Increased risk of recurrent kidney stones (urolithiasis).",
+    "Strong associations with hypertension, diabetes, and cardiovascular disease (as part of metabolic syndrome)."
+  ],
+  "lifestyle_recommendations": [
+    "Moderate intake of purine-rich foods like shellfish, red meat, and sugary drinks containing high-fructose corn syrup.",
+    "Increase daily water intake to assist the kidneys in flushing uric acid.",
+    "Limit alcohol consumption, particularly beer, which is high in purines.",
+    "Maintain a healthy weight through consistent, moderate exercise."
+  ],
+  "when_to_consult_doctor": [
+    "Seek medical advice if you experience sudden, agonizing joint pain or symptoms of a kidney stone, such as severe abdominal or lower back pain."
+  ],
+  "related_features": [
+    "Serum Creatinine",
+    "Blood Urea Nitrogen (BUN)",
+    "C-Reactive Protein (CRP)",
+    "Urine Uric Acid (24-hour collection)"
+  ],
+  "interpretation_notes": [
+    "Hyperuricemia is a risk factor for gout, but many people with high uric acid levels never develop the condition.",
+    "Levels can be transiently elevated by recent high-protein meals, alcohol consumption, or vigorous exercise.",
+    "Interpretation should always consider the patient's hydration status and current medications."
+  ]
+},
+{
+  "feature_name": "ALT (SGPT) (Liver Function Tests (LFT))",
+  "category": "blood_test",
+  "description": "Alanine Aminotransferase (ALT) is an enzyme primarily found in the liver that helps convert proteins into energy for liver cells. When liver cells are damaged or inflamed, ALT leaks into the bloodstream.",
+  "units": "U/L",
+  "normal_range": {
+    "min": "7.0",
+    "max": "56.0",
+    "notes": "Reference ranges vary by laboratory, age, and sex; males typically have higher baseline ALT levels than females."
+  },
+  "low_range": {
+    "threshold": "7.0",
+    "meaning": "Low ALT levels are usually expected and typically do not indicate a medical problem, though they can occasionally be associated with vitamin deficiencies or kidney issues."
+  },
+  "high_range": {
+    "threshold": "56.0",
+    "meaning": "Elevated ALT levels, or hyperalaninemia, generally indicate that liver cells are being stressed, damaged, or destroyed."
+  },
+  "clinical_significance": [
+    "Used as a specific biomarker for detecting hepatocellular (liver cell) injury.",
+    "Essential for screening for viral hepatitis, fatty liver disease, and drug-induced liver injury.",
+    "Helps monitor the progression of chronic liver conditions and the effectiveness of treatments."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Non-alcoholic fatty liver disease (NAFLD)",
+      "Viral hepatitis (A, B, or C)",
+      "Alcohol-induced liver damage",
+      "Certain medications (e.g., statins, NSAIDs, antibiotics)",
+      "Strenuous physical exercise"
+    ],
+    "low": [
+      "Vitamin B6 (pyridoxine) deficiency",
+      "Chronic kidney disease",
+      "Malnutrition"
+    ]
+  },
+  "associated_symptoms": [
+    "Jaundice (yellowing of the skin or eyes)",
+    "Dark-colored urine",
+    "Pain or swelling in the upper right abdomen",
+    "Nausea or loss of appetite",
+    "Unexplained fatigue"
+  ],
+  "risk_implications": [
+    "Persistent elevation may indicate chronic inflammation leading to liver fibrosis or cirrhosis.",
+    "Higher levels are associated with increased metabolic risk and potential liver dysfunction.",
+    "Severe, acute spikes may indicate significant acute liver injury."
+  ],
+  "lifestyle_recommendations": [
+    "Maintain a balanced diet low in saturated fats and refined sugars to prevent fatty liver.",
+    "Limit or avoid alcohol consumption to reduce direct toxic stress on liver cells.",
+    "Engage in regular moderate exercise to support metabolic health.",
+    "Avoid unnecessary or high-dose supplements and medications unless directed by a professional."
+  ],
+  "when_to_consult_doctor": [
+    "Seek medical advice if ALT levels are consistently above the laboratory reference range or if you experience persistent symptoms like jaundice or dark urine."
+  ],
+  "related_features": [
+    "AST (SGOT)",
+    "Bilirubin (Total and Direct)",
+    "Alkaline Phosphatase (ALP)",
+    "Albumin",
+    "Gamma-Glutamyl Transferase (GGT)"
+  ],
+  "interpretation_notes": [
+    "ALT is more specific to the liver than AST, which is also found in heart and skeletal muscle.",
+    "A transient rise in ALT can occur after intense exercise and may not reflect liver disease.",
+    "The 'ALT/AST ratio' is often used by clinicians to differentiate between types of liver injury."
+  ]
+},
+{
+  "feature_name": "{AST (SGOT) (Liver Function Tests (LFT))}",
+  "category": "blood_test",
+  "description": "Aspartate Aminotransferase (AST) is an enzyme found primarily in the liver, heart, and muscles. When these tissues are damaged, AST is released into the bloodstream, making it a key marker for tissue injury.",
+  "units": "U/L",
+  "normal_range": {
+    "min": "8.0",
+    "max": "40.0",
+    "notes": "Reference ranges vary by laboratory and age. Adults typically fall within 8–40 U/L, with males often having slightly higher baseline levels than females."
+  },
+  "low_range": {
+    "threshold": "8.0",
+    "meaning": "Low AST levels are generally considered normal and expected in healthy individuals. Rarely, extremely low levels may be linked to specific metabolic conditions or vitamin deficiencies."
+  },
+  "high_range": {
+    "threshold": "40.0",
+    "meaning": "Elevated AST levels, known as hyperaspartatemia, indicate active cell damage or inflammation in the liver, heart, or skeletal muscles."
+  },
+  "clinical_significance": [
+    "Used as a core component of Liver Function Tests (LFT) to screen for liver disorders.",
+    "Helps evaluate the extent of damage in acute or chronic liver conditions.",
+    "Assists in identifying non-hepatic issues, such as muscle injury or heart stress, when analyzed alongside other enzymes like ALT."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Viral or chronic hepatitis",
+      "Alcohol-induced liver injury",
+      "Non-alcoholic fatty liver disease (NAFLD)",
+      "Strenuous physical exercise or muscle trauma",
+      "Certain medications (e.g., statins, anti-seizure drugs)"
+    ],
+    "low": [
+      "Vitamin B6 (pyridoxine) deficiency",
+      "Advanced kidney disease (uremia)",
+      "Long-term hemodialysis"
+    ]
+  },
+  "associated_symptoms": [
+    "Fatigue or weakness",
+    "Jaundice (yellowing of eyes and skin)",
+    "Abdominal pain or swelling",
+    "Dark-colored urine",
+    "Loss of appetite"
+  ],
+  "risk_implications": [
+    "Chronic elevation may suggest progressive liver fibrosis or cirrhosis.",
+    "Increased risk of liver-related complications if the underlying cause (e.g., viral infection or alcohol use) persists.",
+    "May be an early indicator of systemic metabolic stress."
+  ],
+  "lifestyle_recommendations": [
+    "Adopt a diet low in processed sugars and saturated fats to support liver health.",
+    "Limit alcohol consumption to minimize metabolic strain on liver cells.",
+    "Ensure adequate intake of B-vitamins through whole foods or supplementation if recommended.",
+    "Stay hydrated and manage weight through consistent physical activity."
+  ],
+  "when_to_consult_doctor": [
+    "Consult a healthcare professional if AST levels are consistently elevated or if you experience persistent symptoms like jaundice, localized abdominal pain, or unexplained fatigue."
+  ],
+  "related_features": [
+    "ALT (SGPT)",
+    "Gamma-Glutamyl Transferase (GGT)",
+    "Bilirubin",
+    "Alkaline Phosphatase (ALP)",
+    "Creatine Kinase (CK)"
+  ],
+  "interpretation_notes": [
+    "AST is less specific to the liver than ALT; elevations can occur due to muscle strain or heart issues.",
+    "The ratio of AST to ALT is often used by clinicians to help determine the specific cause of liver injury.",
+    "Recent intense exercise can cause transient elevations that do not reflect liver disease."
+  ]
+},
+{
+  "feature_name": "Alkaline Phosphatase (ALP) (Liver Function Tests (LFT))",
+  "category": "blood_test",
+  "description": "An enzyme found in various tissues throughout the body, with the highest concentrations located in the liver, bile ducts, and bone.",
+  "units": "U/L",
+  "normal_range": {
+    "min": "44",
+    "max": "147",
+    "notes": "Reference ranges vary significantly by laboratory. Levels are naturally much higher in children and adolescents during periods of bone growth and in pregnant women due to placental production."
+  },
+  "low_range": {
+    "threshold": "44",
+    "meaning": "Hypophosphatasia, which is relatively rare, may indicate underlying nutritional deficiencies or specific metabolic conditions."
+  },
+  "high_range": {
+    "threshold": "147",
+    "meaning": "Hyperphosphatasemia often suggests an issue with bile flow (cholestasis), liver cell damage, or increased bone cell activity."
+  },
+  "clinical_significance": [
+    "Primary marker for identifying cholestatic liver disease (blockage or reduction of bile flow).",
+    "Reflects osteoblastic activity, making it a key indicator of bone turnover and health.",
+    "Used in conjunction with other liver enzymes to differentiate between liver-related and bone-related disorders."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Bile duct obstruction (e.g., gallstones)",
+      "Liver conditions such as hepatitis or cirrhosis",
+      "Bone disorders (e.g., Paget's disease, healing fractures, or bone metastasis)",
+      "Pregnancy (normal physiological increase)",
+      "Certain medications (e.g., phenytoin, carbamazepine)"
+    ],
+    "low": [
+      "Zinc or magnesium deficiency",
+      "Malnutrition or protein deficiency",
+      "Hypothyroidism",
+      "Wilson's disease"
+    ]
+  },
+  "associated_symptoms": [
+    "Jaundice (yellowing of the skin or eyes)",
+    "Abdominal pain, particularly in the upper right quadrant",
+    "Pruritus (intense skin itching)",
+    "Bone pain or increased frequency of fractures",
+    "Nausea or fatigue"
+  ],
+  "risk_implications": [
+    "Untreated bile duct obstruction can lead to severe liver damage or infection (cholangitis).",
+    "Chronic elevation associated with bone disease can lead to skeletal deformities or fragility.",
+    "May be an early indicator of primary biliary cholangitis (PBC) or primary sclerosing cholangitis (PSC)."
+  ],
+  "lifestyle_recommendations": [
+    "Ensure adequate intake of Vitamin D and Calcium to support bone health.",
+    "Maintain a liver-friendly diet low in processed fats and high in fiber.",
+    "Stay hydrated to support healthy bile production and flow.",
+    "Consult a professional regarding the use of supplements like zinc if levels are low."
+  ],
+  "when_to_consult_doctor": [
+    "Consult a healthcare provider if ALP levels are significantly elevated above the reference range, especially if accompanied by jaundice, dark urine, or persistent bone pain."
+  ],
+  "related_features": [
+    "Gamma-Glutamyl Transferase (GGT) (used to confirm if ALP elevation is liver-derived)",
+    "Bilirubin",
+    "ALT (SGPT)",
+    "AST (SGOT)",
+    "Calcium and Phosphorus"
+  ],
+  "interpretation_notes": [
+    "If ALP is high but GGT is normal, the source of the elevation is likely bone rather than the liver.",
+    "A temporary increase is common during the healing of bone fractures.",
+    "Results must be interpreted in the context of the patient's age, as 'normal' for a teenager can be several times higher than for an adult."
+  ]
+},
+{
+  "feature_name": "Bilirubin (Total / Direct / Indirect) (Liver Function Tests (LFT))",
+  "category": "blood_test",
+  "description": "Bilirubin is a yellowish pigment formed during the normal breakdown of red blood cells. It passes through the liver and is eventually excreted in stool. It is measured in three forms: Total (all bilirubin), Direct/Conjugated (processed by the liver), and Indirect/Unconjugated (not yet processed).",
+  "units": "mg/dL",
+  "normal_range": {
+    "min": "0.1",
+    "max": "1.2",
+    "notes": "Total Bilirubin: 0.1–1.2 mg/dL. Direct Bilirubin: <0.3 mg/dL. Indirect Bilirubin: 0.2–0.8 mg/dL. Ranges may be significantly higher in newborns during the first few days of life."
+  },
+  "low_range": {
+    "threshold": "0.1",
+    "meaning": "Low bilirubin levels are generally not a cause for medical concern and are often considered normal."
+  },
+  "high_range": {
+    "threshold": "1.2",
+    "meaning": "Elevated bilirubin, known as hyperbilirubinemia, suggests that red blood cells are breaking down too fast or the liver/bile ducts are not processing or excreting it efficiently."
+  },
+  "clinical_significance": [
+    "Used to evaluate liver function and screen for liver diseases like hepatitis or cirrhosis.",
+    "Indicates potential blockages in the bile ducts (gallstones or tumors).",
+    "Helps identify hemolytic anemia (accelerated red blood cell destruction).",
+    "Primary indicator for the cause of jaundice (yellowing of skin and eyes)."
+  ],
+  "common_causes_of_abnormality": {
+    "high": [
+      "Liver disease (hepatitis, cirrhosis, fatty liver)",
+      "Bile duct obstruction (gallstones)",
+      "Hemolytic anemia",
+      "Gilbert's syndrome (a common, harmless genetic processing variation)",
+      "Reaction to blood transfusions"
+    ],
+    "low": [
+      "Certain medications (e.g., Vitamin C/ascorbic acid, phenobarbital)",
+      "High caffeine intake (transient effect)"
+    ]
+  },
+  "associated_symptoms": [
+    "Jaundice (yellow tint to skin or the whites of the eyes)",
+    "Dark or amber-colored urine",
+    "Pale or clay-colored stools",
+    "Abdominal pain or swelling",
+    "Unexplained fatigue or pruritus (itching)"
+  ],
+  "risk_implications": [
+    "Persistent high levels can indicate progressive liver damage or biliary tract issues.",
+    "In newborns, severely high levels require monitoring to prevent kernicterus (potential neurological damage).",
+    "May be associated with increased risk of gallstone formation."
+  ],
+  "lifestyle_recommendations": [
+    "Limit alcohol consumption to reduce toxic stress on liver cells.",
+    "Maintain a balanced, fiber-rich diet to support healthy digestion and bile flow.",
+    "Stay adequately hydrated to assist the body in waste excretion.",
+    "Avoid unnecessary herbal supplements that may be hepatotoxic."
+  ],
+  "when_to_consult_doctor": [
+    "Consult a healthcare professional if you notice yellowing of the skin/eyes, or if lab results show total bilirubin consistently above 1.2 mg/dL."
+  ],
+  "related_features": [
+    "ALT (SGPT)",
+    "AST (SGOT)",
+    "Alkaline Phosphatase (ALP)",
+    "Gamma-Glutamyl Transferase (GGT)",
+    "Complete Blood Count (CBC)"
+  ],
+  "interpretation_notes": [
+    "The ratio between Direct and Indirect bilirubin is critical: high Indirect often points to red blood cell breakdown, while high Direct often points to liver or duct issues.",
+    "Fasting or strenuous exercise can occasionally cause a temporary rise in bilirubin levels.",
+    "Interpretation must consider other liver enzymes (ALT, AST, ALP) to pinpoint the source of elevation."
+  ]
+}
+]
